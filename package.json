@@ -1,0 +1,16 @@
+{
+  "name": "1013_rollup_single_file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup --config rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "rollup": "^2.79.1"
+  }
+}
